@@ -14,11 +14,25 @@ _Create workflows that enable you to use Continuous Integration (CI) for your pr
 </header>
 
 <!--
-  <<< Author notes: Step 4 >>>
+main
   Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
 
+ci
+## Step 5: Merge your pull request
+
+_Almost there! :heart:_
+
+You can now [merge](https://docs.github.com/get-started/quickstart/github-glossary#merge) your pull request!
+
+### :keyboard: Activity: Merge your pull request
+
+1. Go to the **Pull requests** tab.
+1. Resolve any merge conflicts. <!-- TODO: figure out a better way to deal with the merge conflicts. -->
+1. Click **Merge pull request**.
+1. _Once you turn on branch protection, Actions can no longer push directly to the `main` branch. Make sure that you're on the `ci` branch in the page you're following instructions from._ Wait about 20 seconds and then refresh the page. [GitHub Actions](https://docs.github.com/actions) will automatically update to the next step.
+=======
 ## Step 4: Add branch protections
 
 _Great job uploading test reports! :partying_face:_
@@ -38,6 +52,7 @@ Protected branches ensure that collaborators on your repository cannot make irre
 1. Check all build and test jobs that you'd like to see in the newly visible gray box.
 1. Click **Create**.
 1. _Once you turn on branch protection, Actions can no longer push directly to the `main` branch. Wait about 20 seconds and then go to the `ci` branch. [GitHub Actions](https://docs.github.com/actions) will automatically update to the next step on the `ci` branch. You'll need to follow instructions on this branch._
+main
 
 <footer>
 
